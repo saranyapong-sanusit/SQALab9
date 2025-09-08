@@ -18,7 +18,7 @@ public class FavoriteMovie {
     	List<String> allMovies = movieService.getMoviesByUser(username);
     	
     	for (String movie: allMovies) {
-    		if(movie.contains(username)) {
+    		if(movie.contains("Action")) {
     			movies.add(movie);
     		}
     	}
